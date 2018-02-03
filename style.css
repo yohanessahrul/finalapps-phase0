@@ -109,7 +109,7 @@
     label {
         font-family: Courier New, Courier, monospace;
         font-size: 18px;
-        color: aliceblue;
+        color: aliceblue; 
     }
     input[type="radio"]:checked {
         padding-left: 10px !important;

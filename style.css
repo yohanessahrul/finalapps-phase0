@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* For Mobile Phones */
+@media only screen and (max-width: 425px) {
+    body{
+        /* background: #272727; */
+    }
+    .soal {
+        background: #000000);
+    }
+    form > p {
+        color: rgb(187, 187, 187);
+        background: #1c1c1c !important;
+        padding: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .soal > p {
+        color: aliceblue;
+        padding: 15px;
+        font-size: 20px;
+        background: teal !important;
+        font-family: 'Roboto Slab', serif;
+    }
+    ul {
+        width: 100%;
+        background: rgb(48, 48, 48);
+    }
+    li {
+        width: 50%;
+        padding-left: 30px;
+        padding-bottom: 10px;
+    }
+    li:first-child{
+        padding-top: 20px;
+    }
+    li:last-child{
+        padding-bottom: 20px;
+    }
+    label {
+        font-family: Courier New, Courier, monospace;
+        font-size: 18px;
+        color: aliceblue;
+    }
+    input[type="radio"]:checked {
+        padding-left: 10px !important;
+        background: red !important;
+    }
+    #wrap {
+        background: yellow;
+        height: 100%;
+    }
+    #score {
+        display: table;
+        margin: 0 auto;
+        font-size: 100px;
+    }
+    #message {
+        display: table;
+        margin: 0 auto;
+        font-size: 20px;
+    }
+    button {
+        font-size: 25px;
+        width: 100%;
+        height: 50px;
+        background: rgb(255, 153, 0);
+        border: none;
+        color: aliceblue;
+    }
+}
+
+/* For Tablets */
+@media only screen and (min-width: 768px) {
+    .soal {
+        background: #f407a5 !important;
+    }
+    form > p {
+        background: #1c1c1c !important;
+        color: aliceblue;
+        padding: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .soal > p {
+        color: aliceblue;
+        padding: 20px;
+        font-size: 30px;
+        background: teal !important;
+        font-family: 'Roboto Slab', serif;
+    }
+    ul {
+        width: 100%;
+        background: rgb(48, 48, 48);
+    }
+    li {
+        width: 50%;
+        padding-left: 30px;
+        padding-bottom: 10px;
+    }
+    li:first-child{
+        padding-top: 20px;
+    }
+    li:last-child{
+        padding-bottom: 20px;
+    }
+    label {
+        font-family: Courier New, Courier, monospace;
+        font-size: 18px;
+        color: aliceblue;
+    }
+    input[type="radio"]:checked {
+        padding-left: 10px !important;
+        background: red !important;
+    }
+    #wrap {
+        background: yellow;
+        height: 100%;
+    }
+    #score {
+        display: table;
+        margin: 0 auto;
+        font-size: 100px;
+    }
+    #message {
+        display: table;
+        margin: 0 auto;
+        font-size: 20px;
+    }
+    button {
+        font-size: 25px;
+        width: 100%;
+        height: 50px;
+        background: rgb(255, 153, 0);
+        border: none;
+        color: aliceblue;
+    }
+}
+
+

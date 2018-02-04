@@ -1,7 +1,7 @@
 var quiz = [
     {question: "Rasa Gula", opt: ['Asam', 'Asin', 'Manis', 'Pahit'], answer: 'Manis' },
     {question: "Bukan termasuk bilangan prima?", opt: [ '3', '1', '7', '5'], answer: '1' },
-    {question: "Tempat wisata Indonesia?", opt: [ 'Prambanan', 'colloseum', 'Taj Mahal', 'Eifell'], answer: '1' },
+    {question: "Tempat wisata Indonesia?", opt: [ 'Prambanan', 'colloseum', 'Taj Mahal', 'Eifell'], answer: 'Prambanan' },
     {question: "Mobile Wifi?", opt: [ 'Laptop', 'Handphone', 'Mifi', 'Router'], answer: 'Mifi' },
     {question: "Lagu Avenged Sevenfold?", opt: [ 'Saat Terakhir', 'Taman Langit', 'Im Yours', 'Dear God'], answer: 'Dear God' },
     {question: "Ketakutan berlebihan pada suatu hal?", opt: ['Seram', 'Ngantuk', 'Phobia', 'Jijik'], answer: 'Phobia' },

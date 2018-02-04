@@ -5,7 +5,7 @@
 }
 
 /* For Mobile Phones */
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 767px) {
     body{
         /* background: #272727; */
     }
@@ -70,6 +70,19 @@
         background: rgb(255, 153, 0);
         border: none;
         color: aliceblue;
+    }
+    #bener > ul {
+        background: yellow !important;
+        margin-top: 40px;
+    }
+    #bener > ul > li {
+        /* display: inline-table; */
+        width: 100%;
+        margin-bottom: 10px;
+        font-size: 20px;
+        padding: 10px 0;
+        font-family: Courier New, Courier, monospace;
+        background: rgb(221, 221, 10) !important;
     }
 }
 

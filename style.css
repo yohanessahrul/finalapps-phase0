@@ -71,9 +71,20 @@
         border: none;
         color: aliceblue;
     }
+    #bener > h3 {
+        margin-top: 30px;
+        background: rgb(15, 156, 3) !important;
+        width: 100%;
+        display: table;
+        text-align: center;
+        padding: 10px 0;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        color: aliceblue;
+    }
     #bener > ul {
         background: yellow !important;
-        margin-top: 40px;
+        margin-top: 10px;
     }
     #bener > ul > li {
         /* display: inline-table; */

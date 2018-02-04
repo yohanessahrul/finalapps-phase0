@@ -56,10 +56,12 @@ var message = document.getElementById('message');
 wrapDiv.appendChild(message);
 var benerDiv = document.getElementById('bener');
 wrapDiv.appendChild(benerDiv);
+var h3Element = document.createElement('h3');
+var textH3 = document.createTextNode('Jawaban yang benar :');
+benerDiv.appendChild(h3Element);
+h3Element.appendChild(textH3);
 var ulElement = document.createElement('ul');
 benerDiv.appendChild(ulElement);
-
-
 
 
 function arrAnswer (str){
